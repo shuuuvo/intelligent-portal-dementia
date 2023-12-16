@@ -1,0 +1,277 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Learning</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/static/styles/bootstrap4/bootstrap.min.css">
+<link href="/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="/static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="/static/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/about.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/about_responsive.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/chat_styles.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Menu -->
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<form action="#" class="menu_search_form">
+				<input type="text" class="menu_search_input" placeholder="Search" required="required">
+				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</form>
+			<ul>
+				<li class="menu_item"><a href="{% url 'home' %}">Home</a></li>
+				<li class="menu_item"><a href="{% url 'dementia' %}">Dementia</a></li>
+				<li class="menu_item"><a href="{% url 'learning' %}">Learning</a></li>
+				<li class="menu_item"><a href="{% url 'technologies' %}">Technologies</a></li>
+				<li class="menu_item"><a href="{% url 'news' %}">Research</a></li>
+                <li class="menu_item"><a href="{% url 'forum_home' %}">Forum</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<!-- <div class="background_image" style="background-image:url(images/about.jpg)"></div> -->
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/static/images/learning1.jpg" data-speed="0.8"></div>
+
+		<!-- Header -->
+
+		<header class="header" id="header">
+			<div>
+				<div class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div class="logo">
+										<a href="{% url 'home' %}">Dementia<span>+</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+											<nav class="main_nav">
+												<ul class="d-flex flex-row align-items-center justify-content-start">
+													<li class="active"><a href="{% url 'home' %}">Home</a></li>
+													<li><a href="{% url 'dementia' %}">Dementia</a></li>
+													<li><a href="{% url 'learning' %}">Learning</a></li>
+													<li><a href="{% url 'technologies' %}">Technologies</a></li>
+                                                    <li><a href="{% url 'news' %}">Research</a></li>
+													<li><a href="{% url 'forum_home' %}">Forum</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Dementia Learning</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+
+	<div class="about">
+		<div class="container">
+            <h1 class="section_title">Taking Care of a Loved One</h1>
+            <p>Taking care of a loved one with dementia is a daunting task that requires
+                patience. There are a couple of strategies that you can use to reduce the frustration associated with
+                the care of dementia peoties.</p>
+            <h3 style="margin-top: 30px; color: rgb(41, 82, 170)">Create a Routine</h3>
+            <p>The accomplishment of different daily tasks varies across the day. Therefore,
+                performing tasks, such as bathing, during times when patients are most alert could be helpful. Allowing
+                for schedule flexibility for particularly difficult days is also crucial</p>
+            <h3 style="margin-top: 30px; color: rgb(41, 82, 170)">Involvement</h3>
+            <p>Remember that despite the limitations associated with dementia, dementia
+                patients can still perform some tasks, such as setting the table, with minimal assistance. Therefore,
+                allow the person you are caring for to complete a significant part of the task at hand with minimal
+                assistance</p>
+            <h3 style="margin-top: 30x; color: rgb(41, 82, 170)">Provide Clear and Simple Instructions</h3>
+            <p>Proving one-step communication safeguards against confusion and frustration
+            </p>
+            <h3 style="margin-top: 30px; color: rgb(41, 82, 170)">Limit Napping</h3>
+            <p>Frequent napping undermines dementia patients ability to differentiate between
+                day and night. Thus, limit multiple and/or prolonged naps</p>
+            <h3 style="margin-top: 30px; color: rgb(41, 82, 170)">Reduce Distractions</h3>
+            <p>Dementia impairs a person's ability to concentrate. Limiting distrations,by
+                maybe switching off the TV, during conversations and mealtimes, to an extent, mitigates this effect</p>
+            <h3 style="margin-top: 30px; color: rgb(41, 82, 170)">Remember that Dementia Progression Varies Across
+                Individuals</h3>
+            <p>Disease progression and the symptoms that dementia patients experience vary.
+                Thus, you should tailor the provided tips to fit the needs of the person you are taking care of</p>
+            <h3 style="margin-top: 30px; color: rgb(41, 82, 170)">Additional resources</h3>
+            <p>
+                <ul>
+                    <li><a href="https://www.nhs.uk/conditions/dementia/">NHS: Dementia Guide</a></li>
+                    <li><a href="https://www.nhs.uk/conditions/dementia/carers/">NHS: Dementia Care</a></li>
+                    <li><a href="https://www.alzheimers.org.uk/get-support/publications-factsheets/caring-person-dementia-practical-guide">Alzheimer's Society Guide</a></li>
+                </ul>
+            </p>
+
+        </div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/static/images/footer.jpg" data-speed="0.8"></div>
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer About -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_about">
+							<div class="logo">
+								<a href="#">dementia<span>+</span></a>
+							</div>
+							<div class="footer_about_text">Intelligent information portal for dementia care. Use chatbot feature or ask questions on forum.</div>
+							<div class="footer_social">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<div class="copyright">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is developed by <a>Md Golam Rabby Shuvo</a> for educational purpose.
+
+</div>
+						</div>
+					</div>
+
+					<!-- Footer Contact -->
+					<div class="col-lg-5 footer_col">
+						<div class="footer_contact">
+							<div class="footer_contact_title">Quick Contact</div>
+							<div class="footer_contact_form_container">
+								<form action="#" class="footer_contact_form" id="footer_contact_form">
+									<div class="d-flex flex-xl-row flex-column align-items-center justify-content-between">
+										<input type="text" class="footer_contact_input" placeholder="Name" required="required">
+										<input type="email" class="footer_contact_input" placeholder="E-mail" required="required">
+									</div>
+									<textarea class="footer_contact_input footer_contact_textarea" placeholder="Message" required="required"></textarea>
+									<button class="footer_contact_button">send message</button>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Links -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_hours">
+							<div class="footer_hours_title">Quick links</div>
+							<ul class="hours_list">
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://www.dementiauk.org/">Dementia UK</a></div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://www.alzheimers.org.uk/">Alzheimer's Society</a></div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://www.nhs.uk/conditions/dementia/about/">NHS - About Dementia</a></div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://carers.org/">The Carer's Trust</a></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+							<div class="footer_phone ml-lg-auto">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<span>+440 0000 000000</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chatbot</h4>
+                    <p class="chatbox__description--header">Hi. My name is Dementia-bot. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+            <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="/static/images/chatbox-icon.svg" /></button>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script src="/static/styles/bootstrap4/popper.js"></script>
+<script src="/static/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="/static/plugins/greensock/TweenMax.min.js"></script>
+<script src="/static/plugins/greensock/TimelineMax.min.js"></script>
+<script src="/static/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="/static/plugins/greensock/animation.gsap.min.js"></script>
+<script src="/static/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="/static/plugins/easing/easing.js"></script>
+<script src="/static/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="/static/js/about.js"></script>
+<script src="/static/js/chat.js"></script>
+</body>
+</html>

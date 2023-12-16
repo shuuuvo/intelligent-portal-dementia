@@ -1,0 +1,431 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Technology</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/static/styles/bootstrap4/bootstrap.min.css">
+<link href="/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="/static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="/static/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/about.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/about_responsive.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/chat_styles.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Menu -->
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<form action="#" class="menu_search_form">
+				<input type="text" class="menu_search_input" placeholder="Search" required="required">
+				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</form>
+			<ul>
+				<li class="menu_item"><a href="{% url 'home' %}">Home</a></li>
+				<li class="menu_item"><a href="{% url 'dementia' %}">Dementia</a></li>
+				<li class="menu_item"><a href="{% url 'learning' %}">Learning</a></li>
+				<li class="menu_item"><a href="{% url 'technologies' %}">Technologies</a></li>
+				<li class="menu_item"><a href="{% url 'news' %}">Research</a></li>
+                <li class="menu_item"><a href="{% url 'forum_home' %}">Forum</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<!-- <div class="background_image" style="background-image:url(images/about.jpg)"></div> -->
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/static/images/tech1.jpg" data-speed="0.8"></div>
+
+		<!-- Header -->
+
+		<header class="header" id="header">
+			<div>
+				<div class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div class="logo">
+										<a href="{% url 'home' %}">Dementia<span>+</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+											<nav class="main_nav">
+												<ul class="d-flex flex-row align-items-center justify-content-start">
+													<li class="active"><a href="{% url 'home' %}">Home</a></li>
+													<li><a href="{% url 'dementia' %}">Dementia</a></li>
+													<li><a href="{% url 'learning' %}">Learning</a></li>
+													<li><a href="{% url 'technologies' %}">Technologies</a></li>
+                                                    <li><a href="{% url 'news' %}">Research</a></li>
+													<li><a href="{% url 'forum_home' %}">Forum</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Technology to stay independent</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+
+	<div class="about">
+		<div class="container">
+            <h2 class="section_title">Cameras</h2>
+            <p>  The issues about the invasion of privacy are complex but  some carers find it brings peace of mind if they can see their loved one on a  camera. It can also help review the reason for incidents, like a fall.</p>
+            <h3>  Some useful options</h3>
+
+            <h4>Netgear Arlo </h4>
+            <p>  Fixed wi-fi smart cameras which, depending on model, can run purely on  batteries, very helpful if no plug socket is available, can record up to seven days  of video, subscription-free, triggered by movement and/or audio detection, for  later review, as well as offering live streaming, via mobile phone apps.</p>
+
+            <p> The  Arlo cameras also connects into IFTTT for carers wanting a camera which can  control other smart home devices.</p><p>
+                Find out more: <a href="https://www.arlo.com/en-us/">Netgear Arlo</a>
+            </p>
+
+            <h4>Y-cam </h4>
+            <p>Fixed wi-fi smart cameras which offer seven days of video/audio, subscription  free, triggered by movement detection, for later review, as well as offering  live streaming, via mobile phone apps.</p>
+            <p>  Find out more: <a href="https://www.y-cam.com/">Y-cam</a></p>
+
+
+            <h4>Foscam</h4>
+            <p>Wi-fi cameras which allow the camera to be controlled remotely, using a  computer or mobile phone, allowing the carer to pan or tilt the camera. The  camera also provides two-way sound communication. </p>
+            <p>  Find out more: <a href="http://www.foscam.com/">Foscam</a></p>
+
+
+            <h2 class="section_title">Detectors</h2>
+            <p>
+                We are familiar with smoke and gas detectors. But other  forms can be used to detect when someone falls or if a dispenser has not been  opened, therefore signalling that the person has not taken their drugs.
+            </p>
+            <h3>  Some useful ideas</h3>
+            <h4>Nest Protect</h4>
+            <p>  Smoke and carbon monoxide alarm, which can alert carers, via internet/mobile,  if it detects anything concerning. This would be especially useful for carers  who are caring for people with dementia who live in their own homes. </p>
+            <p>  Find out more: <a href="https://nest.com/uk/smoke-co-alarm/meet-nest-protect/">Nest  Protect</a></p>
+
+            <h4>Foobot </h4>
+            <p>It could be useful to Monitoring the quality of the air in the home  environment can help to ensure the health and wellbeing of the person with  dementia. </p>
+            <p>The Foobot measures the particles in the air, and alerts carers when  an incident occurs, which could be for a range of reasons, including cooking  and heating. </p>
+            <p>  Find out more: <a href="https://foobot.io">Foobot</a></p>
+
+            <h4>Sen.se Mother</h4>
+            <p>  A family of smart sensors that you can set to monitor a range of factors, which  can then be used to provide alerts to the user or the carer, or to action  events on compatible smart home devices. Some examples include alerting if  medication hasn&rsquo;t been taken, or if the number of steps taken that day is below  average, to ensuring the temperature is at its optimum.</p>
+
+            <h4>Energenie Mi|Home Motion sensor</h4>
+            <p>  A smart home device, which can be used to alert via mobile phone, when motion  is triggered, possibly to alert when a person with dementia goes near the front  door.</p>
+            <p>  Find out more: <a href="https://energenie4u.co.uk/catalogue/product/MIHO032">Energenie  Mi|Home Motion sensor</a></p>
+
+            <h4>Energenie Mi|Home Wireless Open Sensor</h4>
+            <p>  A smart home device, which can be used to alert via mobile phone, when a door,  like the front door, or fridge door is open/closed. </p>
+            <p>
+                Find out more: <a href="https://energenie4u.co.uk/catalogue/product/MIHO033">Energenie  Mi|Home Wireless Open Sensor</a><br />
+            </p>
+
+            <h2 class="section_title">Grocery shopping</h2>
+            <p>  For people with dementia living at home, it is important  they eat well, and a vital consideration for carers is how to do the grocery  shopping. </p>
+            <p>There naturally are many options here, and much will depend on the  care arrangement, but here are some technology based ideas which could help:</p>
+            <h3>Some useful ideas</h3>
+            <h4>Amazon Fresh (using Amazon Dash) </h4>
+            <p>  Amazon is new to the world of groceries, but its Amazon Fresh service, supplied  in conjunction with Morrisons, works with a new device called the Amazon Dash.</p>
+            <p>This wand, which can magnetically attach to the fridge, can be used to barcode  scan, or vocalise, the items you need to add to a grocery shopping basket. It saves  the need for specific visits just to check what groceries are needed by the  person with dementia.</p>
+            <p>Find out more:</p>
+                <ul class="bullet">
+                    <li><a href="https://www.amazon.co.uk/fresh">Amazon Fresh</a></li>
+                    <li><a href="https://www.amazon.co.uk/dash">Amazon Dash</a></li>
+                </ul>
+
+            <h4>Milk and more</h4>
+            <p>  Milk and more, aka the milkman, provides a regular delivery service for  essential items like bread and milk. The great thing about this service is  there is no minimum order, and no delivery charge. One-off and regular orders  can be set up and managed online, with money collected by direct debit. This  service can be particularly useful when the person with dementia is being cared  for by multiple carers, to ensure the essential groceries are always obtained. </p>
+            <p>  Find out more: <a href="https://www.milkandmore.co.uk">Milk and more </a> </p>
+            <h4>Wiltshire Farm Foods</h4>
+            <p>  Wiltshire Farm Foods provides a range of ready meals, in a variety of different  portion sizes, with specialist nutrition ranges available, including a softer  product range which could be useful for people with dementia, particularly  those who have chewing and swallowing problems. Meals can be ordered in a  variety of ways, including online, with a range of payment options, including  payment by third parties. </p>
+            <p>  Find out more:</p>
+            <ul class="bullet">
+                <li><a href="https://www.wiltshirefarmfoods.com/">Wiltshire Farm  Foods</a></li>
+                <li><a href="/dementia/living-with-dementia/eating-well/chewing-swallowing-problems.asp">SCIE&rsquo;s  advice about chewing and swallowing problems in dementia</a></li>
+            </ul>
+            <h4>High street supermarkets: Online ordering for  delivery</h4>
+            <p>
+                Most High street supermarkets provide an online, desktop PC or mobile app,  ordering and delivery service, which could be useful for carers.
+            </p>
+            <p>Find out more:</p>
+
+            <div class="intro">
+                <div class="intro-left">
+                    <ul class="bullet">
+                        <li><a href="http://www.tesco.com/groceries">Tesco groceries</a></li>
+                        <li><a href="http://www.sainsburys.co.uk/shop/gb/groceries">Sainsbury&rsquo;s groceries</a></li>
+                    </ul>
+                </div>
+
+                <div class="intro-right none-video">
+                    <ul class="bullet">
+                        <li><a href="https://groceries.asda.com">Asda groceries</a></li>
+                        <li><a href="http://www.ocado.com/">Ocado</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h4>Tesco&rsquo;s dementia friendly checkouts</h4>
+            <p>  Some Tesco stores, such as the one in Chester, have dementia-friendly  checkouts, for people with dementia who are more independent.</p>
+            <p>
+                Find out more:
+            </p>
+            <ul class="bullet">
+                <li><a href="http://www.localdementiaguide.co.uk/chester-tesco-innovates-with-first-dementia-friendly-checkout/">Chester  Tesco innovates with first dementia-friendly checkout</a></li>
+            </ul>
+
+            <h2 class="section_title">Health gadgets</h2>
+            <p>  These are being developed to check blood pressure, monitor  insulin levels and identify neurological conditions by videoing eye movement.  People with chronic conditions like asthma or high blood pressure could be  assessed remotely through wearable skin sensors. Smartphone apps will then  upload data directly to health records so changes in pattern can be detected  and interventions planned.</p>
+            <h3>  Some useful links</h3>
+            <h4>Smart blood pressure monitor</h4>
+            <ul class="bullet">
+                <li><a href="https://www.getqardio.com/qardioarm-blood-pressure-monitor-iphone-android/">QardioArm  Wireless blood pressure monitor</a></li>
+                <li><a href="http://www.withings.com/uk/en/products/blood-pressure-monitor">Withings  blood pressure monitor</a></li>
+            </ul>
+            <h4>Smart body weighing scales</h4>
+            <ul class="bullet">
+                <li><a href="https://www.getqardio.com/qardiobase-smart-scale-iphone-android/">QardioBase  Wireless smart scales</a></li>
+                <li> <a href="https://www.withings.com/uk/en/scales">Withings Body / Body Cardio  scales</a></li>
+            </ul>
+            <h4>Smart heart monitor (ECG/EKG)</h4>
+            <ul class="bullet">
+                <li><a href="https://www.getqardio.com/qardiocore-wearable-ecg-ekg-monitor-iphone/">QardioCore  wearable ECG/EKG</a></li>
+                <li><a href="https://www.alivecor.com">AliveCor Kardia  ECG</a></li>
+            </ul>
+            <h4>Smart body thermometer</h4>
+            <ul class="bullet">
+                <li><a href="http://www.withings.com/uk/en/products/thermo">Withings  Thermo</a></li>
+                <li><a href="http://feversmart.com/">Fever smart patch Thermometer</a></li>
+            </ul>
+            <h4>Smart air quality monitor</h4>
+            <ul class="bullet">
+                <li><a href="https://foobot.io/">Foobot</a></li>
+                <li><a href="https://shop.netatmo.com/gbp_en/healthy-home-coach.html">Netatmo Healthy Home Coach</a></li>
+            </ul>
+            <h4>Smart Gluco-Monitoring System</h4>
+            <ul class="bullet">
+                <li><a href="https://ihealthlabs.com/glucometer/wireless-smart-gluco-monitoring-system/">iHealth  Smart Gluco-Monitoring System</a></li>
+                <li><a href="http://www.gluco-wise.com/">GlucoWise  (coming in late 2018)</a></li>
+            </ul>
+
+            <h2 class="section_title">Managing finances</h2>
+
+            <p>
+                Carers who are managing the finances of a person with dementia, who have a Lasting Power of Attorney, need easy access to this financial information. Most banks provide online and mobile access to bank account information to the carer with Power of Attorney.
+            </p><p>
+                However, in many cases the person with dementia also still wants easy access to this information. Some banking mobile phone apps are easier than others. Some banking iPhone apps, once installed and configured, doesn’t require the user to remember any banking or security information. Login is authorised purely by Apple’s TouchID, by the user just putting their finger on the home button of the iPhone. For some this might be an easy way to get access to their financial information.
+            </p>
+            <p>Find out more about banking apps which use TouchID:</p>
+            <ul class="bullet">
+            <li><a href="https://www.help.barclays.co.uk/faq/touch-id/how-do-i-switch-on-touch-id-for-barclays-mobile-banking-.html">Barclays banking app</a></li>
+            <li><a href="https://www.hsbc.co.uk/ways-to-bank/mobile/biometrics/">HSBC banking app</a></li>
+            <li><a href="http://www.nationwide.co.uk/support/ways-to-bank/banking-app">Nationwide banking app</a></li>
+            <li><a href="http://personal.rbs.co.uk/personal/ways-to-bank-with-us/mobile-banking/touch-id.html">Royal Bank of Scotland (RBS) banking app</a></li>
+            </ul> 
+
+
+            <h2 class="section_title">Trackers /  Intelligent pendants</h2>
+            <p>A tracker is a type of device which can track a person as  they move about and could, for example, provide assistance to find them again  using GPS technology. Family members can be confident their loved one cannot wander  too far from home. Other devices can alert health workers in the event of a  fall or to a change in someone&rsquo;s walking pattern. Some of these are worn around  the wrist or neck. The user can call for help by pressing the button, for  example, if they fall. Pendants alert a monitoring centre. Staff can then speak  to the person and assess if additional help is needed.</p>
+            <h3>Some useful items</h3>
+            <h4>SOS fall detection GPS tracker</h4>
+            <p>  This device automatically notifies carers if the wearer of the device falls  over, and the wearer doesn&rsquo;t get up within 10 seconds, by texting and calling a  number of carers. The text message, which is sent across the normal mobile  phone network, provides a link to the location of the device on Google Maps.  The wearer can also initiate an alert, without falling, by pressing the big SOS  button, and the unit includes a speaker and microphone, so a conversation can  be had with the wearer. Another useful feature is that carers can even call the  device, with the call being auto-answered. One concern with such a small feature-rich  device is the battery life. But for many this could be an invaluable tool.</p>
+            <p>
+                Find out more:
+                <a href="https://www.amazon.co.uk/dp/B0123FALMQ">SOS fall detection GPS tracker</a>
+            </p>
+            <h4>WatchOvers Liberty GPS Watch</h4>
+            <p>  A standalone watch-phone bypassing the need for the wearer to also carry a  mobile phone or any other device. Using GPS together with GSM and Wi-Fi for  enhanced location accuracy, features include; two-way voice communication, SOS  emergency alarm, GPS location in real-time tracking, location history and  ability to set location boundaries, which will generate alerts if breached.</p>
+            <p>  Find out more: <a href="http://www.watchovers.com/product/liberty-watch/">WatchOvers  Liberty GPS Watch</a></p>
+            <h4> Sen.se Mother </h4>
+            <p>
+                A family of smart sensors that you can set to monitor a range of factors, which  can then be used to provide alerts to the user or the carer, or to action  events on compatible smart home devices. Some examples include alerting if  medication hasn&rsquo;t been taken, or if the number of steps taken that day is below  average, to ensuring the temperature is at it optimum.
+            </p>
+
+            <h2 class="section_title">Robots</h2>
+            <p>
+            At present robots do not function at a high enough level or at a reasonable enough cost for most people to consider their use. However, this is likely to change in the near future. Some people believe robots will offer cost-effective support for people to remain living independently if demand for care outstrips provision in the future.
+            </p>
+
+            <h2 class="section_title">Apps</h2>
+            <p>There are many ways apps are useful. To remind a patient to take their medication, to collect and analyse data of person’s vital signs and/or to produce a summary report for a monitoring team. Apps such as <a href="https://www.rallyroundme.com">RallyRound</a> and <a href="https://www.jointlyapp.com">Jointly</a> provide a planning tool for families and carers, helping them to share the load of managing and coordinating support for jobs that need doing. </p>
+
+
+
+            <h2 class="section_title">More ideas</h2>
+            <p>View more ideas from providers and retailers including:</p>
+            <ul class="bullet">
+            <li><a href="https://www.atdementia.org.uk">AT Dementia</a> provides information on assistive technologies (AT) that can help people with dementia live more independently. It also offers a self-help guide to AT, designed to help individuals work out what products might be of assistance.</li>
+            <li><a href="https://www.trackershop-uk.com/product-category/personal-gps-trackers/dementia/">Trackershop  UK: Dementia trackers</a></li>
+            <li><a href="https://www.telmenow.com/">Tel Me Now</a></li>
+            </ul>
+            
+        </div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/static/images/footer.jpg" data-speed="0.8"></div>
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer About -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_about">
+							<div class="logo">
+								<a href="#">dementia<span>+</span></a>
+							</div>
+							<div class="footer_about_text">Intelligent information portal for dementia care. Use chatbot feature or ask questions on forum.</div>
+							<div class="footer_social">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<div class="copyright">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is developed by <a>Md Golam Rabby Shuvo</a> for educational purpose.
+
+</div>
+						</div>
+					</div>
+
+					<!-- Footer Contact -->
+					<div class="col-lg-5 footer_col">
+						<div class="footer_contact">
+							<div class="footer_contact_title">Quick Contact</div>
+							<div class="footer_contact_form_container">
+								<form action="#" class="footer_contact_form" id="footer_contact_form">
+									<div class="d-flex flex-xl-row flex-column align-items-center justify-content-between">
+										<input type="text" class="footer_contact_input" placeholder="Name" required="required">
+										<input type="email" class="footer_contact_input" placeholder="E-mail" required="required">
+									</div>
+									<textarea class="footer_contact_input footer_contact_textarea" placeholder="Message" required="required"></textarea>
+									<button class="footer_contact_button">send message</button>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Links -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_hours">
+							<div class="footer_hours_title">Quick links</div>
+							<ul class="hours_list">
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://www.dementiauk.org/">Dementia UK</a></div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://www.alzheimers.org.uk/">Alzheimer's Society</a></div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://www.nhs.uk/conditions/dementia/about/">NHS - About Dementia</a></div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://carers.org/">The Carer's Trust</a></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+							<div class="footer_phone ml-lg-auto">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<span>+440 0000 000000</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chatbot</h4>
+                    <p class="chatbox__description--header">Hi. My name is Dementia-bot. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+            <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="/static/images/chatbox-icon.svg" /></button>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script src="/static/styles/bootstrap4/popper.js"></script>
+<script src="/static/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="/static/plugins/greensock/TweenMax.min.js"></script>
+<script src="/static/plugins/greensock/TimelineMax.min.js"></script>
+<script src="/static/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="/static/plugins/greensock/animation.gsap.min.js"></script>
+<script src="/static/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="/static/plugins/easing/easing.js"></script>
+<script src="/static/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="/static/js/about.js"></script>
+<script src="/static/js/chat.js"></script>
+</body>
+</html>
+
+

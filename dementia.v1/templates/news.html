@@ -1,0 +1,299 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>News and Research</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Health medical template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/static/styles/bootstrap4/bootstrap.min.css">
+<link href="/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="/static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="/static/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/about.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/about_responsive.css">
+<link rel="stylesheet" type="text/css" href="/static/styles/chat_styles.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Menu -->
+
+	<div class="menu trans_500">
+		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+			<div class="menu_close_container"><div class="menu_close"></div></div>
+			<form action="#" class="menu_search_form">
+				<input type="text" class="menu_search_input" placeholder="Search" required="required">
+				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</form>
+			<ul>
+				<li class="menu_item"><a href="{% url 'home' %}">Home</a></li>
+				<li class="menu_item"><a href="{% url 'dementia' %}">Dementia</a></li>
+				<li class="menu_item"><a href="{% url 'learning' %}">Learning</a></li>
+				<li class="menu_item"><a href="{% url 'technologies' %}">Technologies</a></li>
+				<li class="menu_item"><a href="{% url 'news' %}">Research</a></li>
+                <li class="menu_item"><a href="{% url 'forum_home' %}">Forum</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<!-- <div class="background_image" style="background-image:url(images/about.jpg)"></div> -->
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/static/images/news1.jpg" data-speed="0.8"></div>
+
+		<!-- Header -->
+
+		<header class="header" id="header">
+			<div>
+				<div class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div class="logo">
+										<a href="{% url 'home' %}">Dementia<span>+</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+											<nav class="main_nav">
+												<ul class="d-flex flex-row align-items-center justify-content-start">
+													<li class="active"><a href="{% url 'home' %}">Home</a></li>
+													<li><a href="{% url 'dementia' %}">Dementia</a></li>
+													<li><a href="{% url 'learning' %}">Learning</a></li>
+													<li><a href="{% url 'technologies' %}">Technologies</a></li>
+                                                    <li><a href="{% url 'news' %}">Research</a></li>
+													<li><a href="{% url 'forum_home' %}">Forum</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Dementia News and Resaerch</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+
+	<div class="about">
+		<div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="section_title">News</h2>
+                    <hr>
+                    <h3>A guide to integrated care systems</h3>
+                    <p>You may have heard about the new integrated care systems in England – but what are they, and what might they mean for health and social care and support for...<a href="https://www.dementiauk.org/a-guide-to-integrated-care-systems/" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Seven things you should know about dementia – according to people living with it</h3>
+                    <p>Seven people with dementia share the things they think everyone should know about the condition...<a href="https://www.dementiauk.org/seven-things-know-about-dementia-by-people-living-with-it/" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Coaching people with dementia</h3>
+                    <p>Mark Bullock, Disability Tennis Co-ordinator for Middlesex Tennis, shares his experiences of coaching people living with dementia...<a href="https://www.dementiauk.org/coaching-people-with-dementia/" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                </div>
+                <div class="col-md-8">
+                    <h2 class="section_title">Research</h2>
+                    <hr>
+                    <h3>Fatty Acids and the Treament of Dementia</h3>
+                    <p>Omega‐3 polyunsaturated fatty acids (omega‐3 PUFAs) are assumed to have a beneficial effect on the function of the brain. It has been suggested that they might improve or delay decline in memory and ability to carry out everyday tasks in people with dementia...<a href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009002.pub3/full" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Diabetes and Dementia</h3>
+                    <p>Type 2 diabetes mellitus — a form of diabetes which becomes commoner with older age — increases the risk of developing dementia...<a href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003804.pub2/full" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Sleep Disorders & Dementia</h3>
+                    <p>Dementia is associated with sleep and circadian disturbances, worse than the expected gradual sleep quality with aging[1], which negatively affect patient quality of life and increase caregiver burden...<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5363179/" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Treatment Options</h3>
+                    <p>Although pharmacotherapies appear to slow aspects of cognitive impairment in both AD and PD, the benefits are often marginal and non-sustained. These shortcomings have led to the evaluation of non-pharmacological and novel treatments for both AD and PD...<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4876589/" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Aromatherapy & Dementia</h3>
+                    <p>One of the most common symptoms observed in patients with dementia is agitation, and several non-pharmacological treatments have been used to control this symptom...<a href="https://link.springer.com/article/10.1186/s12906-015-0612-9" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Ginkgo Biloba Extract & Dementia Treatment</h3>
+                    <p>The benefit of Ginkgo biloba for the treatment of dementia remains controversial...<a href="https://jphcs.biomedcentral.com/articles/10.1186/s40780-015-0014-7" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Natural Pytochemicals & Dementia Treatment</h3>
+                    <p>The word dementia describes a class of heterogeneous diseases which etiopathogenetic mechanisms are not well understood...<a href="https://www.mdpi.com/1420-3049/21/4/518/htm" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Advance Care Planning</h3>
+                    <p>When a person with dementia (PWD) has lost the ability to make treatment decisions, clinicians often rely on family carers to know and articulate these preferences with assumed accuracy...<a href="https://journals.plos.org/plosone/article/file?type=printable&id=10.1371/journal.pone.0159056" target='_blank'>Read Article</a></p>
+                    <hr>
+                    <h3>Bipolar Disorder & Dementia</h3>
+                    <p>Compared with non-use, 301–365 days of lithium exposure was associated with significantly reduced dementia risk...<a href="https://pdfs.semanticscholar.org/36e2/d855dd4e277b92930fd57f849b6ca4d6f68b.pdf" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Trends in Diagnosis & Treatment of Dementia</h3>
+                    <p>In 2014, 850 000 people in the UK were estimated to have dementia, supported by approximately 540 000 family carers.1 These numbers are set to rise markedly both in the developed and in the developing world as the population ages in the coming decades...<a href="https://www.sciencedirect.com/science/article/pii/S2468266717300312" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Reminiscence Therapy & Dementia</h3>
+                    <p>The effects of reminiscence interventions are inconsistent, often small in size and can differ considerably across settings and modalities...<a href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD001120.pub3/full?highlightAbstract=reminiscent&highlightAbstract=reminisc" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Home Support for People with Dementia</h3>
+                    <p>There is some evidence that case management is beneficial at improving some outcomes at certain time points, both in the person with dementia and in their carer...<a href="https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008345.pub2/pdf/CDSR/CD008345/CD008345_standard.pdf" target='_blank'><b>Read Article</b></a></p>
+                    <hr>
+                    <h3>Public's Understanding of Dementia Prevention & Treatment</h3>
+                    <p>Approximately 47 million people worldwide are living with dementia (otherwise known as major neurocognitive disorder) and a new diagnosis is given every three seconds [1]. While research has not yet discovered a cure, there is accumulating evidence about the potential to prevent approximately one third of cases of dementia with management of risk factors such as poor educational attainment, hypertension, and depression...<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5908164/" target='_blank'><b>Read Article</b></a></p>
+                </div>
+            </div>
+        </div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="/static/images/footer.jpg" data-speed="0.8"></div>
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+
+					<!-- Footer About -->
+					<div class="col-lg-3 footer_col">
+						<div class="footer_about">
+							<div class="logo">
+								<a href="#">dementia<span>+</span></a>
+							</div>
+							<div class="footer_about_text">Intelligent information portal for dementia care. Use chatbot feature or ask questions on forum.</div>
+							<div class="footer_social">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<div class="copyright">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is developed by <a>Md Golam Rabby Shuvo</a> for educational purpose.
+
+</div>
+						</div>
+					</div>
+
+					<!-- Footer Contact -->
+					<div class="col-lg-5 footer_col">
+						<div class="footer_contact">
+							<div class="footer_contact_title">Quick Contact</div>
+							<div class="footer_contact_form_container">
+								<form action="#" class="footer_contact_form" id="footer_contact_form">
+									<div class="d-flex flex-xl-row flex-column align-items-center justify-content-between">
+										<input type="text" class="footer_contact_input" placeholder="Name" required="required">
+										<input type="email" class="footer_contact_input" placeholder="E-mail" required="required">
+									</div>
+									<textarea class="footer_contact_input footer_contact_textarea" placeholder="Message" required="required"></textarea>
+									<button class="footer_contact_button">send message</button>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<!-- Footer Links -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_hours">
+							<div class="footer_hours_title">Quick links</div>
+							<ul class="hours_list">
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://www.dementiauk.org/">Dementia UK</a></div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://www.alzheimers.org.uk/">Alzheimer's Society</a></div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://www.nhs.uk/conditions/dementia/about/">NHS - About Dementia</a></div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div><a href="https://carers.org/">The Carer's Trust</a></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
+							<div class="footer_phone ml-lg-auto">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<span>+440 0000 000000</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chatbot</h4>
+                    <p class="chatbox__description--header">Hi. My name is Dementia-bot. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+            <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="/static/images/chatbox-icon.svg" /></button>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script src="/static/styles/bootstrap4/popper.js"></script>
+<script src="/static/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="/static/plugins/greensock/TweenMax.min.js"></script>
+<script src="/static/plugins/greensock/TimelineMax.min.js"></script>
+<script src="/static/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="/static/plugins/greensock/animation.gsap.min.js"></script>
+<script src="/static/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="/static/plugins/easing/easing.js"></script>
+<script src="/static/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="/static/js/about.js"></script>
+<script src="/static/js/chat.js"></script>
+</body>
+</html>

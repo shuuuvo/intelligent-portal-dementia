@@ -1,0 +1,311 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "dementia",
+      "patterns": [
+        "What is dementia?",
+        "Tell me more about dementia?"
+      ],
+      "responses": [
+        "Dementia is a syndrome (a group of related symptoms) associated with an ongoing decline of brain functioning. There are many different causes of dementia, and many different types. People often get confused about the difference between Alzheimer's disease and dementia."
+      ]
+    },
+    {
+      "tag": "difference",
+      "patterns": [
+        "What is the difference between Alzheimer's disease and dementia?"
+      ],
+      "responses": [
+        "Alzheimer's disease is a type of dementia. Dementia is a loss of thinking, remembering, and reasoning skills that interferes with a person's daily life and activities. Alzheimer's disease is the most common cause of dementia among older people."
+      ]
+    },
+    {
+      "tag": "early stage",
+      "patterns": [
+        "What are the early signs of Alzheimer's disease?"
+      ],
+      "responses": [
+        "Memory problems are typically one of the first signs of Alzheimer's disease, though different people may have different initial symptoms. A decline in other aspects of thinking, such as finding the right words, vision/spatial issues, and impaired reasoning or judgment, may also signal the very early stages of Alzheimer's disease."
+      ]
+    },
+    {
+      "tag": "stages",
+      "patterns": [
+        "What are the stages of Alzheimer's disease?",
+        "What are the stages of Dementia?"
+      ],
+      "responses": [
+        "Alzheimer's disease progresses in several stages: preclinical, early (also called mild), middle (moderate), and late (severe). During the preclinical stage of Alzheimer's disease, people seem to be symptom-free, but toxic changes are taking place in the brain. A person in the early stage of Alzheimer's may exhibit the signs listed above."
+      ]
+    },
+    {
+      "tag": "causes",
+      "patterns": [
+        "What are the causes of Alzheimer's disease?",
+        "What are the causes of Dementia?"
+      ],
+      "responses": [
+        "Scientists do not yet fully understand what causes Alzheimer's disease in most people. In early-onset Alzheimer's, which occurs between a person's 30s and mid-60s, there may be a genetic component. Late-onset Alzheimer's, which usually develops in a person's mid-60s, arises from a complex series of age-related brain changes that occur over decades. \\nThe causes probably include a mix of these changes, along with genetic, environmental, and lifestyle factors. These factors affect each person differently."
+      ]
+    },
+    {
+      "tag": "hereditary",
+      "patterns": [
+        "Is Alzheimer's disease hereditary?",
+        "Is dementia hereditary?"
+      ],
+      "responses": [
+        "Just because a family member has Alzheimer's disease does not mean that you will get it, too. Most cases of Alzheimer's are late-onset. This form of the disease occurs in a person's mid-60s and is not linked to a specific genetic mutation. However, genetic factors appear to increase a person's risk of developing late-onset Alzheimer's."
+      ]
+    },
+    {
+      "tag": "cure",
+      "patterns": [
+        "Is there a cure for Alzheimer's disease?",
+        "Is there a cure for dementia?"
+      ],
+      "responses": [
+        "Currently, there is no cure for Alzheimer's disease. Some sources claim that products such as coconut oil or dietary supplements can cure or delay Alzheimer's. However, there is no scientific evidence to support these claims."
+      ]
+    },
+    {
+      "tag": "prevent",
+      "patterns": [
+        "Is there a way to prevent Alzheimer's disease?",
+        "Is there a way to prevent dementia?"
+      ],
+      "responses": [
+        "Currently, there is no definitive evidence about what can prevent Alzheimer's disease or age-related cognitive decline. What we do know is that a healthy lifestyle — one that includes a healthy diet, physical activity, appropriate weight, and control of high blood pressure — can lower the risk of certain chronic diseases and boost overall health and well-being."
+      ]
+    },
+    {
+      "tag": "stage one",
+      "patterns": [
+        "What happen in stage one of dementia?",
+        "Tell me about stage one of dementia."
+      ],
+      "responses": [
+        "In this stage, there are no symptoms of cognitive impairment, mental function is normal."
+      ]
+    },
+    {
+      "tag": "stage two",
+      "patterns": [
+        "What happen in stage two of dementia?",
+        "Tell me about stage two of dementia."
+      ],
+      "responses": [
+        "In this stage, one seems to forget everyday phrases and the location of important objects such as keys."
+      ]
+    },
+    {
+      "tag": "last stage",
+      "patterns": [
+        "What happen in stage seven of dementia?",
+        "Tell me about last stage of dementia."
+      ],
+      "responses": [
+        "In this stage, your loved one is unable to care for themselves, lives with severe motor and communication impairment, and may lose the ability to speak or walk."
+      ]
+    },
+    {
+      "tag": "refuse care",
+      "patterns": [
+        "What should I do if my loved one refuses personal care?"
+      ],
+      "responses": [
+        "Think about how you would feel if you required support with personal care. People living with Dementia will still experience emotions such as embarrassment, so you should encourage them to do as much for themselves as possible."
+      ]
+    },   
+    {
+      "tag": "fear of water",
+      "patterns": [
+        "My loved one has a fear of water. How do we overcome this?"
+      ],
+      "responses": [
+        "If your loved one does not like water, try using body lotion as a distraction. In this way, you can incorporate washing as part of their daily routine."
+      ]
+    },    
+    {
+      "tag": "refuse toilet",
+      "patterns": [
+        "What should I do if my loved one refuses to use the toilet?"
+      ],
+      "responses": [
+        "Dementia can also affect vision, which makes it difficult to distinguish between objects of the same colour, so if the toilet seat is white try changing it for a black one. If the floor is also a light colour, this could explain why your loved one is refusing to sit on the toilet, because they cannot differentiate between the toilet seat and the cream floor."
+      ]
+    },    
+    {
+      "tag": "visitor make distressing ",
+      "patterns": [
+        "My loved one can find having visitors distressing. Is there any way we can overcome this?"
+      ],
+      "responses": [
+        "If possible, encourage family members and friends to visit at different times, as this will reduce feelings of anxiety and make it easier for your loved one to communicate."
+      ]
+    },
+    {
+      "tag": "patterned carpet",
+      "patterns": [
+        "Can patterned carpets and wallpaper affect someone living with Dementia?"
+      ],
+      "responses": [
+        "Patterned carpets and wallpaper can be very confusing for someone who is living with Dementia."
+      ]
+    },
+    {
+      "tag": "less anxiouse for appointment",
+      "patterns": [
+        "How can I help my loved one to feel less anxious when they have to attend appointments?"
+      ],
+      "responses": [
+        "If your loved one feels nervous about leaving the house for appointments or activities, don’t tell them about the appointment until you are about to leave the house."
+      ]
+    },
+    {
+      "tag": "wash clothes",
+      "patterns": [
+        "My loved one will not let me wash her clothes. Is there any way around this?"
+      ],
+      "responses": [
+        "If possible, wash your loved ones’ clothes when she is out of the house; perhaps with family or at day centre."
+      ]
+    },
+    {
+      "tag": "refuse to stand",
+      "patterns": [
+        "How can I initiate movement when my loved one refuses to stand?"
+      ],
+      "responses": [
+        "Begin by encouraging your loved one to put their feet on the floor in order to familiarise themselves to the sensation. When they feel comfortable with this, ask them to stand."
+      ]
+    },
+    {
+      "tag": "digestion",
+      "patterns": [
+        "Can Dementia affect digestion?"
+      ],
+      "responses": [
+        "Yes, Dementia can affect our digestion, and as a result excessive wind is produced."
+      ]
+    },
+    {
+      "tag": "camera",
+      "patterns": [
+        "Suggest me camera."
+      ],
+      "responses": [
+        "Fixed wi-fi smart cameras,\n Netgear Arlo: https://www.arlo.com/en-us/ \n Y-cam: https://www.y-cam.com/"
+      ]
+    },
+    {
+      "tag": "grocery",
+      "patterns": [
+        "Help with grocery shopping."
+      ],
+      "responses": [
+        "Amazon Fresh service, supplied in conjunction with Morrisons, works with a new device called the Amazon Dash.\n Amazon Fresh: https://www.amazon.co.uk/fresh \n Amazon Dash: https://www.amazon.co.uk/dash."
+      ]
+    },
+    {
+      "tag": "detector",
+      "patterns": [
+        "Suggest me smoke and gas detectors."
+      ],
+      "responses": [
+        "Smoke and carbon monoxide alarm, Nest Protect: https://nest.com/uk/smoke-co-alarm/meet-nest-protect/ \n Monitoring the quality of the air, Foobot: https://foobot.io/ \n A family of smart sensors, Sen.se Mother."
+      ]
+    },
+    {
+      "tag": "north norfolk service",
+      "patterns": [
+        "Services near North Norfolk.",
+        "Is there any place near North Norfolk for dementia help?"
+      ],
+      "responses": [
+        "Poppy Dementia Cafe\n Address: St. Andrew's Meeting Room, Church Street, NR25 6BB.\n Phone: 07760 462693. \n \n Poppy friedns \n Address: The Treehouse Cafe, Charles Road, Holt NR25 6DA. \n Phone: 07760 462693"
+      ]
+    },
+    {
+      "tag": "south norfolk service",
+      "patterns": [
+        "Services near South Norfolk.",
+        "Is there any place near South Norfolk for dementia help?"
+      ],
+      "responses": [
+        "The Dove Dementia Cafe\n Address: Diss United Reformed Church, Mere Street, Diss IP22 4AD.\n Phone: 01379 650770."
+      ]
+    },
+    {
+      "tag": "norwich service",
+      "patterns": [
+        "Services near Norwich",
+        "Is there any place near Norwich for dementia help?"
+      ],
+      "responses": [
+        "Sprowston Community Dementia Cafe\n Address: The Diamond Centre, School Lane, Sprowston, NR7 8TR.\n Phone: 01603 408063. \n \nSunshine Cafe\n Address: The Salvation Army, 24 Boundary Road, NR6 5HT.\n Phone: 01603 402703."
+      ]
+    },
+    {
+      "tag": "great yarmouth service",
+      "patterns": [
+        "Services near Great Yarmouth",
+        "Is there any place near Great Yarmouth for dementia help?"
+      ],
+      "responses": [
+        "Memory Club - Gorleston on Sea\n Address: Methodist Church Hall Gorleston on Sea, Great Yarmouth NR31 7DB.\n Phone: 01493 494217."
+      ]
+    },
+    {
+      "tag": "dementia care homes",
+      "patterns": [
+        "Help with care homes near Norwich."
+      ],
+      "responses": [
+        "St John's House\n Address: Heigham Road, Norwich, Norwich NR2 3AU.\n Phone: 01603 299000.\n \n Barchester Woodside House Care Home\n Address: 142 Woodside Road, Thorpe St Andrew, Norwich NR7 9XJ.\n Phone: 01603 294644.\n\n St Clements Nursing Home\n Address: 170 St Clements Hill, Norwich NR3 4DG.\n Phone: 01603 858980."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
