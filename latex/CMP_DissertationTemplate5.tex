@@ -1,0 +1,258 @@
+% ------------------------------------------------------------------------
+% A Latex template created by Dr. Wenjia Wang for CMP MSc Dissertation. 
+% 
+% Lasted update: 24/03/2020 by Wenjia Wang
+%----------------------------------------------
+% Please read the in-file brief Instructions below 
+% or More detailed Instructions in sample file (Instrucrtions.tex)
+% to learn how to use this option in this template.
+% 
+% Then go through from current line number 155 to line 205
+% to fill in the details about yourself, course, your dissertation, etc. 
+%
+% Notes and sample files:
+% "acronymNotes.tex": brief introduction on how to make a LOA. 
+% "acronyms.tex": a sample file where you define abbreviations.
+% ------------
+% 
+% ####---- Brief in-file Instructions ----####
+% ----Preparation steps: 
+% (i)  Download the zipped Latex templat file into your disk or your university's home space on U disk,
+% (ii) Unzip all the fiels into your working folder, such as \Dissertation. 
+% (ii) Change/replace/fill some places in this "DissertationTemplate.tex" file to suit your need:
+% 	such as, Your course, year, dissertation title, your name, markers, etc.
+%
+%% Then you can follow teh following instructions(not necessarily in that order) to write your dissertation. 
+%   
+%% 1. Write your abstract in a provided sample tex file: "Abstract.tex"
+%% 2. Write your acknowledgement in a provided sample tex file: "Acknowledgement.tex"  
+%    Note: Both tex files are already included in the style file. 
+%
+%% 3. Write each chapter in a separate tex file and name them e.g. Ch1.tex, Ch2.tex, etc. 
+% and then use "include" to inlcude them as shown in this example.
+% 
+%% 4. Citation styles: package "natbib" is used for making references.
+%   you should replace the bib file - xbib, with your own bib file
+%   at the END of this template file, i.e.   
+%   \bibliography{xbib} % use your own bib file 
+%   Then, you can use the following two cammands 
+%   to cite your reference, pending on how it is use. 
+%   (i) Use Command "\citep{...}" to produce the styyle: (Authors, year)
+%   (ii) Use Command "\citet{...}" to produce the style: Authers (year)
+%
+%#### 
+% If you wish to produce a list of abbreviations/acronyms 
+% that are used in your dissertation, you must read notes 5-8 below. 
+%
+%% 5. Define abbreviations or acronyms
+% 	you can use the given sample file "acronyms.tex" 
+% 	to define your abbreviations or acronyms, and 
+% 	some examples are already defined in that file.
+% 	After you have defined them, (you can add any new items anytime you like), 
+% 	save it in the same folder as this "DissertationSample1.tex"
+% 	as it is included by using "include{acronyms}" in this file later.
+% 	Note: if you use any other file name, change it in "\inlcude{yourFilename}. 
+%
+%% 6. Using the defined abbreviations/acrynoms
+%   In file "acronymNotes.tex", I give some notes and few examples 
+%   to explain and show how to use defined acrynoms in your tex file.  
+%
+%% 7. Generate a List of Abbreviations(LOA)
+%  You must issue command "Makeglossaries" to produce few more auxiliary files 
+%   e.g. xxxx.acr, and/or .glo, and/or .gls, etc. in order to produce LOA 
+%   so, is you use TexStudio, Click "Tools" and choose "Makeglossaries"
+%
+%% 8. Don't want to have a list of Abbreviations
+%  use command "\nolistofabbs", by uncomment it in later part  
+%  then LOA will not be generated and not appear in the TOC. 
+%  note: you may have to run "Build and View" twice to get the intended result.
+%        first run to remove/get the acutal list of abbreviation
+%		 second run to remove/get the list appearing on TOC.   
+% 
+%% 9. Using footnote. (% wjw, added this note on 11/09/2015)
+%	If you want to use footnotes in any chapters of your dissertation, 
+%	you can use command \footnote{your footnote text} in where you want.
+% 	The footnotes are numbered automatically and continuously within a CHAPTER.   
+%   
+% 10. Added the confidentility statement on 24/03/2020,
+%  Read 
+%
+% 
+% Disclaimer: This template is provided as it is. 
+%  You should not change it if you are not sure what you are doing.  
+%  Dr. Wang won't be held responsible for any problems it has or causes,
+%  although you should let me kow if you found any bug.
+%
+% ------------------------------------------------------------------------
+\documentclass[a4paper, 12pt]{report}
+\usepackage[centertags]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{newlfont}
+\usepackage{graphicx}
+\usepackage{natbib} % by wjw 22/11/2016 to replace apalike package
+%\usepackage{pdfsync} %PDF Forward Search
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{url}
+
+\usepackage[acronym]{glossaries} % added by wjw on 05/08/15
+\usepackage{datetime}
+
+\usepackage{CMPDissertation5} % CMP Dissertation Style
+
+\usepackage{XTocinc} % Include Table of Contents as the first entry in TOC
+
+\usepackage{setspace}  % added by wj on 11/09/15
+% Note: this makes the body text in chapters are double spaced 
+% and text in table are single spaced.
+% If you want to have a double space in tables, commented it out. 
+
+%\usepackage[active]{srcltx}  %SRC Specials for DVI search
+
+% Fuzz -------------------------------------------------------------------
+\hfuzz2pt % Don't bother to report over-full boxes if over-edge is < 2pt
+% Line spacing -----------------------------------------------------------
+\newlength{\defbaselineskip}
+\setlength{\defbaselineskip}{\baselineskip}
+\newcommand{\setlinespacing}[1]%
+           {\setlength{\baselineskip}{#1 \defbaselineskip}}
+% As the package setspace is included above, which define linespacing, 
+% the following newcommands for double/single spacing become redeundant, 
+% hence they were commentted out. wj 11/09/2015   
+%\newcommand{\doublespacing}{\setlength{\baselineskip}{2.0 \defbaselineskip}}
+%\newcommand{\singlespacing}{\setlength{\baselineskip}{\defbaselineskip}}
+
+%
+\numberwithin{equation}{section}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+
+%%% ----------------------------------------------------------------------
+\setlength{\tclineskip}{1.05\baselineskip}
+%%% ----------------------------------------------------------------------
+%\nobib
+%\draft
+%\nofront
+%\permissionfalse
+
+%\dedicate{}
+
+%\nolistoftables
+%\nolistoffigures
+% if you don't want to have a list of Abbreviations
+% decomment the followling command
+\nolistofabbs
+
+% This is an MSc dissertation
+\msc
+
+% if this is for  PhD thesis
+%\phd
+
+\university{The University of East Anglia}
+\school{Computing Sciences}
+
+%%%%%% You need to change/fill few things from here %%%%%%
+
+%#### CHOOSE OR INSERT YOUR MSC COURSE TITLE BELOW #####
+% by commentting in your course from the list below.
+
+%\course{Advanced Computing Science}
+%\course{Computing Science}
+%\course{Cyber Security}
+\course{Data Science}
+%\course{Games Development}
+%\course{Information Systems}
+%\course{Computational Biology}
+
+%####---- change the year and month to fit yours ####
+%\monthyeardate\today
+
+\copyrightyear{2022}   % change to your submission year.
+\submitdate{August, 2022} % Change to your submission date: month, year.
+%\submitdate{\date{today}}
+\studyyears{2021}{2022} % change to your start and finish year of your course.
+%\convocation{July}{2022}
+
+%####---- SET CONFIDENTIALITY RESTRICTION ----------
+%### uncomment the follwoing two lines if your dissertation is confidential
+
+%\confidential{}   	% display the confidentiality statement on the title page  
+%\setconfidentialdate2{August 31, 2021} 	
+% set the end date to e.g. August 31, 2021
+
+%% it will the produce a statement on the title as follows:
+%% --- CONFIDENTIALITY STATEMENT:
+%% The contents of this dissertation remain confidential until August 31, 2021
+%% and should not be discussed or disclosed to any third party without the prior written permission 
+%% from the School of Computing Sciences, the University of East Anglia.
+
+%%--------------------------------------------
+
+
+% ---------------------------------------------
+% #### Insert the title of your dissertation below.#####
+\title{Intelligent Portal for Caregivers to People with Dementia}
+
+% #### Insert your full name below.#####
+\author{Md Golam Rabby Shuvo}
+
+%#### insert your supervisor's name below #####
+\supervisor{Dr. Hane Aung}
+
+%#### insert the name of your markers if you know them #####
+%#### Markers are usually allocated in July #### 
+\firstmarker{Marker 1: Dr. Hane Aung}
+\secondmarker{Marker 2: Dr. Gavin Cowley}
+
+%#### leave the following two lines as they are ####
+\examiner{Checker/Moderator}
+\organiser{Dr. Wenjia Wang}
+
+%#### inlcude a tex file here, e.g. acronyms.tex, 
+%#### where you have defined your acronyms and abbreviations.
+%\include{acronyms}   
+\makeglossaries
+%------------------------------------------------------------------------
+\begin{document}
+{
+\typeout{:?000000000} % Don't bother with over/under-full boxes
+\beforepreface
+\typeout{:?111111111} % Process All Errors from Here on
+}
+
+\afterpreface
+\def\baselinestretch{1}
+\setlinespacing{1.66}
+
+%--------------------------------------------------------------------
+
+%------------------------------------------------------------------------
+
+% ##### Include each chapter in order below ##### 
+\include{Ch1_Introduction}
+\include{Ch2_LiteratureReview}
+\include{Ch3_Analysis}
+\include{Ch4_Methodology}
+\include{Ch5_Implementation} 
+%\include{Ch5}
+%\include{Ch6} 
+% ......
+%\include{EvaluationAndDiscussion}
+\include{Evaluation} 
+
+% ------------------------------------------------------------------------
+\setlinespacing{1.44}
+%\bibliographystyle{amsplain}
+\bibliographystyle{apalike}
+\bibliography{xbib} % use your own bib file
+
+%#### Include any appendix below #####
+\appendix
+\include{AppendixA}
+%\include{AppendixB}
+
+% =================================================================
+\end{document}
+% ------------------------------------------------------------------------

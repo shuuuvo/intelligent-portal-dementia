@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: CMP_DissertationTemplate5.aux
+A level-1 auxiliary file: Abstract.aux
+A level-1 auxiliary file: Acknowledgement.aux
+A level-1 auxiliary file: Ch1_Introduction.aux
+A level-1 auxiliary file: Ch2_LiteratureReview.aux
+A level-1 auxiliary file: Ch3_Analysis.aux
+A level-1 auxiliary file: Ch4_Methodology.aux
+A level-1 auxiliary file: Ch5_Implementation.aux
+A level-1 auxiliary file: Evaluation.aux
+The style file: apalike.bst
+A level-1 auxiliary file: AppendixA.aux
+Database file #1: xbib.bib
+Name 1 in "Rashidi, P., and Mihailidis, A." has a comma at the end for entry leg1
+while executing---line 1023 of file apalike.bst
+Name 1 in "Rashidi, P., and Mihailidis, A." has a comma at the end for entry leg1
+while executing---line 1023 of file apalike.bst
+Name 1 in "Rashidi, P., and Mihailidis, A." has a comma at the end for entry leg1
+while executing---line 1098 of file apalike.bst
+You've used 48 entries,
+            1935 wiz_defined-function locations,
+            768 strings with 13724 characters,
+and the built_in function-call counts, 21352 in all, are:
+= -- 2023
+> -- 1058
+< -- 27
++ -- 390
+- -- 368
+* -- 1900
+:= -- 3695
+add.period$ -- 151
+call.type$ -- 48
+change.case$ -- 424
+chr.to.int$ -- 48
+cite$ -- 48
+duplicate$ -- 769
+empty$ -- 1411
+format.name$ -- 444
+if$ -- 4197
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 45
+newline$ -- 245
+num.names$ -- 144
+pop$ -- 369
+preamble$ -- 1
+purify$ -- 424
+quote$ -- 0
+skip$ -- 576
+stack$ -- 0
+substring$ -- 1363
+swap$ -- 114
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 288
+warning$ -- 0
+while$ -- 143
+width$ -- 0
+write$ -- 631
+(There were 3 error messages)

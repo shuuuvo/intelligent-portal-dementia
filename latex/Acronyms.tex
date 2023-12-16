@@ -1,0 +1,42 @@
+%####
+% File name: acronyms.tex
+% purpose: a sample file that is used to define abbreviations, acronyms, glossary.
+% Created on 05/08/2015, by Wenjia Wang
+
+%#### Notes:
+% In this file, you can define all the abbreviations you wish to use in your text.
+
+% 1. Use command "\newacronym" to define an abbreviation/acronym 
+% format: \newacronym{label}{name}{description}
+% for example:  
+\newacronym{cmp}{CMP}{School of Computing Sciences}
+\newacronym{uea}{UEA}{University of East Anglia}
+\newacronym{loa}{LOA}{List of Abbreviations}
+
+% 2. use command "\gls{label}" or "\Gls{label}" to cite a defined acronym in your .tex file 
+% for example: \gls{UEA}
+% when used it in the first time, it will produce: University of East Anglia(UEA)
+% when used after the 1st time, it will produce: UEA    
+
+% Some more examples defined here.
+
+\newacronym{api}{API}{Application Programming Interface}
+\newacronym{uml}{UML}{Unified Modelling Language}
+\newacronym{kdd}{KDD}{Knowledge Discovery form Database}
+\newacronym{svm}{SVM}{Support Vector Machine}
+
+
+% or use the following command to define a glossary term %"\newglossaryentry{label}{name={<name>}, description={<describing blahh blah}}
+% e.g
+
+\newglossaryentry{apple}
+{
+	name={apple}, 
+	description={is a kind of sweet fruit}
+}
+\newglossaryentry{latex}
+{
+	name=Latex,
+	description={is a mark-up text-editing language specially   
+		for writing scientific documents}
+}

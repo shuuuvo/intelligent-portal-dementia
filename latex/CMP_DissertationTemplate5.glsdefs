@@ -1,0 +1,252 @@
+\glsdefs@newdocentry{cmp}%
+{%
+name={CMP},%
+sort={CMP},%
+type={acronym},%
+first={School of Computing Sciences\glsspace (CMP)},%
+firstplural={School of Computing Sciences\acrpluralsuffix \glsspace (CMP\acrpluralsuffix )},%
+text={CMP},%
+plural={CMP\acrpluralsuffix },%
+description={School of Computing Sciences},%
+descriptionplural={School of Computing Sciences\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={School of Computing Sciences},%
+longplural={School of Computing Sciencess},%
+short={CMP},%
+shortplural={CMPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{uea}%
+{%
+name={UEA},%
+sort={UEA},%
+type={acronym},%
+first={University of East Anglia\glsspace (UEA)},%
+firstplural={University of East Anglia\acrpluralsuffix \glsspace (UEA\acrpluralsuffix )},%
+text={UEA},%
+plural={UEA\acrpluralsuffix },%
+description={University of East Anglia},%
+descriptionplural={University of East Anglia\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={University of East Anglia},%
+longplural={University of East Anglias},%
+short={UEA},%
+shortplural={UEAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{loa}%
+{%
+name={LOA},%
+sort={LOA},%
+type={acronym},%
+first={List of Abbreviations\glsspace (LOA)},%
+firstplural={List of Abbreviations\acrpluralsuffix \glsspace (LOA\acrpluralsuffix )},%
+text={LOA},%
+plural={LOA\acrpluralsuffix },%
+description={List of Abbreviations},%
+descriptionplural={List of Abbreviations\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={List of Abbreviations},%
+longplural={List of Abbreviationss},%
+short={LOA},%
+shortplural={LOAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{api}%
+{%
+name={API},%
+sort={API},%
+type={acronym},%
+first={Application Programming Interface\glsspace (API)},%
+firstplural={Application Programming Interface\acrpluralsuffix \glsspace (API\acrpluralsuffix )},%
+text={API},%
+plural={API\acrpluralsuffix },%
+description={Application Programming Interface},%
+descriptionplural={Application Programming Interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Programming Interface},%
+longplural={Application Programming Interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{uml}%
+{%
+name={UML},%
+sort={UML},%
+type={acronym},%
+first={Unified Modelling Language\glsspace (UML)},%
+firstplural={Unified Modelling Language\acrpluralsuffix \glsspace (UML\acrpluralsuffix )},%
+text={UML},%
+plural={UML\acrpluralsuffix },%
+description={Unified Modelling Language},%
+descriptionplural={Unified Modelling Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unified Modelling Language},%
+longplural={Unified Modelling Languages},%
+short={UML},%
+shortplural={UMLs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{kdd}%
+{%
+name={KDD},%
+sort={KDD},%
+type={acronym},%
+first={Knowledge Discovery form Database\glsspace (KDD)},%
+firstplural={Knowledge Discovery form Database\acrpluralsuffix \glsspace (KDD\acrpluralsuffix )},%
+text={KDD},%
+plural={KDD\acrpluralsuffix },%
+description={Knowledge Discovery form Database},%
+descriptionplural={Knowledge Discovery form Database\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Knowledge Discovery form Database},%
+longplural={Knowledge Discovery form Databases},%
+short={KDD},%
+shortplural={KDDs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{svm}%
+{%
+name={SVM},%
+sort={SVM},%
+type={acronym},%
+first={Support Vector Machine\glsspace (SVM)},%
+firstplural={Support Vector Machine\acrpluralsuffix \glsspace (SVM\acrpluralsuffix )},%
+text={SVM},%
+plural={SVM\acrpluralsuffix },%
+description={Support Vector Machine},%
+descriptionplural={Support Vector Machine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Support Vector Machine},%
+longplural={Support Vector Machines},%
+short={SVM},%
+shortplural={SVMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{apple}%
+{%
+name={apple},%
+sort={apple},%
+type={main},%
+first={apple},%
+firstplural={apples},%
+text={apple},%
+plural={apples},%
+description={is a kind of sweet fruit},%
+descriptionplural={is a kind of sweet fruit},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{latex}%
+{%
+name={Latex},%
+sort={Latex},%
+type={main},%
+first={Latex},%
+firstplural={Latexs},%
+text={Latex},%
+plural={Latexs},%
+description={is a mark-up text-editing language specially for writing scientific documents},%
+descriptionplural={is a mark-up text-editing language specially for writing scientific documents},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
